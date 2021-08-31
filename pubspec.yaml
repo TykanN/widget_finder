@@ -1,6 +1,6 @@
 name: widget_finder
-description: Easily find position and size of widget.
-version: 0.1.0
+description: widget_finder makes it easy to find the position and size of the widget.
+version: 0.1.1
 homepage: https://github.com/TykanN/widget_finder
 
 environment:
