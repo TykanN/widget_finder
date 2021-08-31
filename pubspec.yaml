@@ -1,0 +1,20 @@
+name: widget_finder
+description: Easily find position and size of widget.
+version: 0.1.0
+homepage: https://github.com/TykanN/widget_finder
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
