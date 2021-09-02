@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'sizeNotifier.dart';
 
 class WidgetFinder {
   /// Use GlobalKey to find widget.
@@ -7,8 +8,7 @@ class WidgetFinder {
   final GlobalKey key;
 
   WidgetFinder.of(this.key)
-      : assert(key.currentContext?.findRenderObject() != null,
-            'No widget in the tree that matches this global key.');
+      : assert(key.currentContext?.findRenderObject() != null, 'No widget in the tree that matches this global key.');
 
   /// Context of the widget.
   BuildContext get context => key.currentContext!;
@@ -51,4 +51,11 @@ class WidgetFinder {
 
   /// BottomRight point of the widget.
   Offset get bottomRight => topLeft + Offset(width, height);
+
+  /// You can receive callback when size of child is changed.
+  static SizeNotifier sizeNotifer({Key? key, required onSizeChanged, required child}) => SizeNotifier(
+        key: key,
+        onSizeChanged: onSizeChanged,
+        child: child,
+      );
 }

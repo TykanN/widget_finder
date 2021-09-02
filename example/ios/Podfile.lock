@@ -1,22 +1,16 @@
 PODS:
   - Flutter (1.0.0)
-  - widget_finder (0.0.1):
-    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - widget_finder (from `.symlinks/plugins/widget_finder/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  widget_finder:
-    :path: ".symlinks/plugins/widget_finder/ios"
 
 SPEC CHECKSUMS:
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  widget_finder: 8f83b205e1ba7e986d0b07f3e6daa0e1d4b69d2f
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: 0a5e9980a5128e0ae1b6030bed7c09ba254c5a78
 
 COCOAPODS: 1.10.2
